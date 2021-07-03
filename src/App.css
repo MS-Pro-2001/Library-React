@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+}
+
+.size{
+  margin-top: 70px;
+}
+
+.red {
+  border: 8px solid red;
+}
+.yellow {
+  border: 8px solid yellow;
+}
+.blue {
+  border: 8px solid blue;
+}
+
+.boder {
+  border: 0px solid darkblue;
+  border-radius: 23px 22px 30px 34px;
+  box-shadow: #007bff 1px -4px 23px 3px;
+}
+
+/* .bodr{
+  box-shadow: black 1px -4px 23px 3px;
+} */
+
+.fonts {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  color: rgb(24, 12, 196);
+  text-shadow: 0px 4px 4px black;
+  animation: ttb 3s 1;
+}
+
+.ltr {
+  animation: ltr 3s 1;
+}
+.rtl {
+  animation: rtl 3s 1;
+}
+
+@keyframes ltr {
+  0% {
+    transform: translate(-40px);
+  }
+
+  50% {
+    transform: translate(20px);
+  }
+}
+
+@keyframes rtl {
+  0% {
+    transform: translate(40px);
+  }
+
+  50% {
+    transform: translate(-20px);
+  }
+}
+
+@keyframes ttb {
+  0% {
+    transform: translateY(-40px);
+  }
+
+  50% {
+    transform: translateY(10px);
+  }
+}
+
+
+
+/* ################################### Cards ############################################### */
+
+/* .card{
+  box-shadow: 1px 1px 1px 1px black;
+ 
+}
+.card:hover{
+  box-shadow:5px 5px 5px 5px black;
+  transition: 0.3s;
+} */
+
